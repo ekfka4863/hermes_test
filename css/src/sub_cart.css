@@ -1,0 +1,2215 @@
+@media all and (max-width: 767px) {
+  #headBox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 40px;
+  }
+  #headBox > h1 {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-decoration: none;
+    border-bottom: 2px solid #F6F1EB;
+  }
+  #headBox > h1 > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .unb {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    height: 40px;
+    background-color: #F6F1EB;
+  }
+  .nav_inner01 {
+    display: flex;
+    width: 40px;
+    height: 40px;
+  }
+  .nav_inner01 .menu_btn_part {
+    width: 40px;
+    height: 100%;
+  }
+  .nav_inner01 .menu_btn_part .menu_btn {
+    width: 40px;
+    height: 100%;
+    margin: auto;
+    background-image: url(../../../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .nav_inner01 .menu_btn_part button {
+    display: block;
+  }
+  .nav_inner01 .menu_btn_part ul {
+    display: none;
+    width: 100px;
+    height: 350px;
+    font-size: 12px;
+    background-color: #F6F1EB;
+  }
+  .nav_inner01 .menu_btn_part ul li {
+    float: left;
+    z-index: 100;
+    width: 100px;
+    height: 70px;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: #505050;
+  }
+  .nav_inner01 .menu_btn_part ul li:last-of-type {
+    border-bottom: 0;
+  }
+  .nav_inner01 .menu_btn_part ul li a {
+    display: block;
+    width: 100%;
+    height: 70px;
+  }
+  .nav_inner01 .menu_btn_part ul.on {
+    display: block;
+  }
+
+  .search_btn_part {
+    width: 100%;
+    height: 100%;
+  }
+
+  .search_btn {
+    width: 40px;
+    height: 100%;
+    background-image: url(../../../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .search_text_area {
+    display: none;
+    width: 160px;
+    height: 50px;
+    padding: 4px 0;
+    border-radius: 6px;
+    background-color: #F6F1EB;
+  }
+  .search_text_area.on {
+    display: block;
+  }
+  .search_text_area .search_text_inner {
+    width: 150px;
+    height: 40px;
+    margin: auto;
+  }
+  .search_text_area .search_text_inner input {
+    width: 150px;
+    height: 40px;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
+
+  .nav_inner02 {
+    display: flex;
+    width: auto;
+    height: 40px;
+  }
+  .language_part {
+    width: 40px;
+    height: 100%;
+    background-image: url(../../../img/internet.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .language_part span {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    background-color: #fff;
+  }
+  .language_part ul.on {
+    display: block;
+  }
+  .language_part li {
+    width: 40px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .language_part button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-transform: uppercase;
+  }
+
+  .login_part {
+    width: 40px;
+    height: 100%;
+    background-image: url(../../../img/user.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .login_part span {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .login_part > dl {
+    width: 100%;
+    height: 180px;
+  }
+  .login_part dt {
+    width: 100%;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.3em;
+    text-transform: uppercase;
+  }
+  .login_part dd {
+    width: 100%;
+  }
+
+  .nav_inner02 .about_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .nav_inner02 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .nav_inner02 button {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #headBox > .gnb {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #headBox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+  }
+  #headBox > h1 {
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: contain;
+  }
+  #headBox > h1 > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .unb {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    text-transform: uppercase;
+    background-color: #F6F1EB;
+  }
+  .nav_inner01 {
+    display: flex;
+    width: auto;
+    height: 50px;
+    padding-left: 20px;
+  }
+  .nav_inner01 .menu_btn {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .nav_inner01 .menu_btn_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .search_btn_part {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+  }
+
+  .search_btn {
+    display: block;
+    width: 48px;
+    height: 50px;
+    background-image: url(../../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .search_text_area {
+    width: 200px;
+    height: 50px;
+    padding: 6px 0;
+    background-color: #F6F1EB;
+  }
+  .search_text_area .search_text_inner {
+    width: 180px;
+    height: 40px;
+    margin: auto;
+  }
+  .search_text_area .search_text_inner input {
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  .nav_inner02 {
+    display: flex;
+    width: auto;
+    height: 50px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    font-size: 12px;
+  }
+  .language_part {
+    width: 70px;
+    height: 50px;
+  }
+  .language_part span {
+    text-transform: uppercase;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    background-color: #fff;
+  }
+  .language_part ul.on {
+    display: block;
+  }
+  .language_part li {
+    width: 70px;
+    height: 30px;
+  }
+  .language_part button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-transform: uppercase;
+  }
+
+  .login_part {
+    width: 70px;
+    height: 50px;
+    margin-right: -8px;
+  }
+
+  .about_part {
+    width: 70px;
+    height: 50px;
+  }
+
+  .nav_inner02 a {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+  .nav_inner02 button {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+
+  .gnb {
+    width: 100%;
+    height: 60px;
+    background-color: #F6F1EB;
+  }
+  .gnb.fix {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: auto;
+  }
+  .nav_inner03 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 60px;
+    text-transform: uppercase;
+  }
+  .nav_inner03 .menu_btn_part {
+    width: 50px;
+    height: auto;
+  }
+  .nav_inner03 .menu_btn_part .menu_btn {
+    width: 50px;
+    height: 50px;
+    margin-top: 6px;
+    background-image: url(../../../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .nav_inner03 .menu_btn_part button {
+    display: block;
+  }
+  .nav_inner03 .menu_btn_part ul {
+    display: none;
+    transform: translateX(-43px);
+    width: 200px;
+    height: auto;
+    background-color: #F6F1EB;
+  }
+  .nav_inner03 .menu_btn_part ul li {
+    width: 180px;
+    height: 60px;
+    padding: 30px 0;
+    margin: auto;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #505050;
+  }
+  .nav_inner03 .menu_btn_part ul li:last-of-type {
+    border-bottom: 0;
+  }
+  .nav_inner03 .menu_btn_part ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 6px;
+  }
+  .nav_inner03 .menu_btn_part ul.on {
+    display: block;
+  }
+
+  .menu_part {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    height: 60px;
+  }
+  .menu_part a {
+    display: block;
+    width: 80px;
+    height: 60px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 17px;
+  }
+  .menu_part a:last-child {
+    margin-right: 0;
+  }
+
+  .cart_btn {
+    width: 50px;
+    height: 60px;
+    background-image: url(../../../img/bag.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cart_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #headBox {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+  }
+  h1 {
+    width: 480px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    line-height: 80px;
+    background-color: #ffffff;
+  }
+  h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .unb {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 0 54px;
+    background-color: #F6F1EB;
+  }
+  .nav_inner01 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+  }
+  .nav_inner01 .menu_btn {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .nav_inner01 .menu_btn_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .search_btn_part {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+  }
+
+  .search_btn {
+    display: block;
+    width: 48px;
+    height: 50px;
+    background-image: url(../../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .search_text_area {
+    width: 200px;
+    height: 50px;
+    padding: 6px 0;
+    background-color: #F6F1EB;
+  }
+  .search_text_area .search_text_inner {
+    width: 180px;
+    height: 40px;
+    margin: auto;
+  }
+  .search_text_area .search_text_inner input {
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  .nav_inner02 {
+    display: flex;
+    width: auto;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    font-size: 12px;
+  }
+  .language_part {
+    width: 70px;
+    height: 50px;
+  }
+  .language_part span {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    background-color: #fff;
+  }
+  .language_part ul.on {
+    display: block;
+  }
+  .language_part li {
+    width: 70px;
+    height: 30px;
+  }
+  .language_part button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-transform: uppercase;
+  }
+
+  .login_part {
+    width: 70px;
+    height: 50px;
+    margin-right: -14px;
+  }
+
+  .about_part {
+    width: 70px;
+    height: 50px;
+  }
+
+  .nav_inner02 a {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+  .nav_inner02 button {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+
+  .gnb {
+    width: 100%;
+    height: 60px;
+    background-color: #F6F1EB;
+  }
+  .gnb.fix {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: auto;
+  }
+  .nav_inner03 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .menu_btn_part {
+    width: 50px;
+    height: auto;
+  }
+  .menu_btn_part .menu_btn {
+    width: 50px;
+    height: 24px;
+    padding-top: 58px;
+    background-image: url(../../../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .menu_btn_part button {
+    display: block;
+  }
+  .menu_btn_part ul {
+    display: none;
+    transform: translateX(-80px);
+    width: 200px;
+    height: auto;
+    background-color: #F6F1EB;
+  }
+  .menu_btn_part ul li {
+    width: 200px;
+    height: 60px;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #505050;
+  }
+  .menu_btn_part ul li:last-of-type {
+    border-bottom: 0;
+  }
+  .menu_btn_part ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+  }
+  .menu_btn_part ul.on {
+    display: block;
+  }
+
+  .menu_part {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    height: 60px;
+    text-align: center;
+    line-height: 50px;
+  }
+  .menu_part > a {
+    display: block;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+  }
+
+  .cart_btn {
+    width: 50px;
+    height: 60px;
+    background-image: url(../../../img/bag.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cart_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (min-width: 1440px) {
+  #headBox {
+    position: relative;
+    width: 1440px;
+    height: auto;
+    margin: auto;
+    padding-top: 50px;
+  }
+  h1 {
+    width: 480px;
+    height: 100px;
+    margin: auto;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    text-align: center;
+    line-height: 80px;
+    background-color: #ffffff;
+  }
+  h1 a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .unb {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 50px;
+    margin: auto;
+    text-transform: uppercase;
+    padding: 0 120px;
+    background-color: #F6F1EB;
+  }
+  .nav_inner01 {
+    display: flex;
+    width: 100%;
+    height: 50px;
+  }
+  .nav_inner01 .menu_btn {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .nav_inner01 .menu_btn_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .search_btn_part {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 50px;
+  }
+
+  .search_btn {
+    display: block;
+    width: 48px;
+    height: 50px;
+    background-image: url(../../img/search.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .search_text_area {
+    width: 200px;
+    height: 50px;
+    padding: 6px 0;
+    background-color: #F6F1EB;
+  }
+  .search_text_area .search_text_inner {
+    width: 180px;
+    height: 40px;
+    margin: auto;
+  }
+  .search_text_area .search_text_inner input {
+    width: 180px;
+    height: 40px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+
+  .nav_inner02 {
+    display: flex;
+    width: auto;
+    height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 48px;
+    font-size: 12px;
+  }
+  .language_part {
+    width: 80px;
+    height: 50px;
+  }
+  .language_part span {
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .language_part ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    border: 1px solid #333;
+    background-color: #fff;
+  }
+  .language_part ul.on {
+    display: block;
+  }
+  .language_part li {
+    width: 80px;
+    height: 30px;
+  }
+  .language_part button {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-transform: uppercase;
+  }
+
+  .login_part {
+    width: 80px;
+    height: 50px;
+    margin-right: -14px;
+  }
+
+  .about_part {
+    width: 80px;
+    height: 50px;
+  }
+
+  .nav_inner02 a {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+  .nav_inner02 button {
+    display: block;
+    width: auto;
+    height: 100%;
+  }
+
+  .gnb {
+    width: 1440px;
+    height: 60px;
+    margin: auto;
+    background-color: #F6F1EB;
+  }
+  .gnb.fix {
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: auto;
+  }
+}
+@media all and (min-width: 1440px) and (max-width: 767px) {
+  .gnb {
+    display: none;
+  }
+}
+@media all and (min-width: 1440px) {
+  .nav_inner03 {
+    display: flex;
+    justify-content: space-between;
+    width: 1096px;
+    height: 60px;
+    margin: auto;
+    text-transform: uppercase;
+  }
+  .menu_btn_part {
+    width: 50px;
+    height: auto;
+  }
+  .menu_btn_part .menu_btn {
+    width: 50px;
+    height: 24px;
+    padding-top: 58px;
+    background-image: url(../../../img/menu.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .menu_btn_part button {
+    display: block;
+  }
+  .menu_btn_part ul {
+    display: none;
+    transform: translateX(-172px);
+    width: 250px;
+    height: auto;
+    font-size: 12px;
+    background-color: #F6F1EB;
+  }
+  .menu_btn_part ul li {
+    width: 250px;
+    height: 60px;
+    border-bottom: 1px solid #D9D9D9;
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    color: #505050;
+  }
+  .menu_btn_part ul li:last-of-type {
+    border-bottom: 0;
+  }
+  .menu_btn_part ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+  }
+  .menu_btn_part ul.on {
+    display: block;
+  }
+
+  .menu_part {
+    display: flex;
+    justify-content: space-around;
+    width: 740px;
+    height: 60px;
+    text-align: center;
+    line-height: 58px;
+    font-size: 17px;
+  }
+
+  .cart_btn {
+    width: 50px;
+    height: 60px;
+    background-image: url(../../../img/bag.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cart_btn a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  #cartBox {
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    padding: 20px;
+    border: 2px solid #F6F1EB;
+  }
+  h2 {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cart_area {
+    width: 100%;
+    height: 400px;
+  }
+
+  .selectBox {
+    width: 100%;
+    height: 36px;
+    margin: auto;
+    padding: 6px;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .select_check_area {
+    width: 100%;
+    height: auto;
+  }
+  .select_check_area .select_check_inner01 {
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .check_part {
+    float: left;
+    margin-top: 2px;
+  }
+
+  .select_part {
+    float: left;
+    width: 60px;
+    height: 20px;
+    margin-left: 10px;
+  }
+
+  .check_delete_part {
+    float: right;
+    width: 80px;
+    height: 20px;
+  }
+  .check_delete_part button {
+    display: block;
+  }
+
+  .select_check_area .select_check_inner02 {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .itemBox {
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    padding: 4px 6px;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .item_area {
+    width: 100%;
+    height: auto;
+  }
+  .item_inner01 {
+    width: 100%;
+    height: 30px;
+  }
+  .item_inner01 .check_part {
+    width: 20px;
+    height: 100%;
+    padding-top: 4px;
+  }
+  .item_inner01 .wish_part {
+    float: left;
+    width: 20px;
+    height: 30px;
+    background-image: url(../../../img/heart.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .item_inner01 .delete_part {
+    float: right;
+    width: 20px;
+    height: 30px;
+    background-image: url(../../../img/delete.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+
+  .item_area p {
+    width: 170px;
+    height: 20px;
+    margin: auto;
+    font-size: 14px;
+  }
+
+  .otherBox {
+    width: 250px;
+    height: 40px;
+    margin: auto;
+  }
+  .otherBox ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .otherBox li {
+    width: 110px;
+    height: 34px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 32px;
+    border: 2px solid #D9D9D9;
+  }
+  .otherBox li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #cartBox {
+    width: 100%;
+    height: 740px;
+    margin: 120px 0;
+    padding: 40px 60px;
+    border: 2px solid #F6F1EB;
+  }
+  h2 {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 20px;
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cart_area {
+    width: 100%;
+    height: 600px;
+  }
+
+  .selectBox {
+    width: 100%;
+    height: 36px;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .select_check_area {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+  }
+  .select_check_area .select_check_inner01 {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .select_check_area .select_check_inner02 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    line-height: 32px;
+    font-size: 16px;
+  }
+  .select_check_area .select_check_inner02 li {
+    width: auto;
+    height: auto;
+  }
+  .select_check_area .select_check_inner02 input {
+    width: 16px;
+    height: 16px;
+  }
+  .select_check_area .select_check_inner02 .check_part {
+    margin-left: -40px;
+  }
+  .select_check_area .select_check_inner02 .item_name_part {
+    margin-left: 44px;
+  }
+  .select_check_area .select_check_inner02 .item_num_part {
+    margin-left: 30px;
+  }
+
+  .itemBox {
+    width: 100%;
+    height: 100px;
+    margin: auto;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .item_area {
+    width: 100%;
+    height: auto;
+  }
+  .item_inner01 {
+    width: 100%;
+    height: 30px;
+    padding: 0 10px;
+  }
+  .item_inner01 input {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+  }
+  .item_inner01 .wish_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .item_inner01 .delete_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .item_area p {
+    width: 200px;
+    height: 40px;
+    margin: auto;
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .otherBox {
+    width: 350px;
+    height: 74px;
+    margin: auto;
+  }
+  .otherBox ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .otherBox li {
+    width: 150px;
+    height: 46px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    border: 2px solid #D9D9D9;
+  }
+  .otherBox li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #cartBox {
+    width: 100%;
+    height: 1200px;
+    margin: 130px 0;
+    padding: 50px 150px;
+    border: 2px solid #F6F1EB;
+  }
+  h2 {
+    width: 100%;
+    height: 48px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cart_area {
+    width: 100%;
+    height: 1000px;
+  }
+
+  .selectBox {
+    width: 100%;
+    height: 46px;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .select_check_area {
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+  }
+  .select_check_area .select_check_inner01 {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .select_check_area .select_check_inner02 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .select_check_area .select_check_inner02 li {
+    width: auto;
+    height: auto;
+  }
+  .select_check_area .select_check_inner02 input {
+    width: 18px;
+    height: 18px;
+    margin-top: 12px;
+  }
+  .select_check_area .select_check_inner02 .check_part {
+    margin-left: -66px;
+  }
+  .select_check_area .select_check_inner02 .item_name_part {
+    margin-left: 90px;
+  }
+  .select_check_area .select_check_inner02 .item_num_part {
+    margin-left: 30px;
+  }
+
+  .itemBox {
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .item_area {
+    width: 100%;
+    height: auto;
+  }
+  .item_inner01 {
+    width: 100%;
+    height: 30px;
+    padding: 0 30px;
+  }
+  .item_inner01 input {
+    width: 18px;
+    height: 18px;
+    margin-top: 12px;
+  }
+  .item_inner01 .wish_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .item_inner01 .delete_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .item_area p {
+    width: 230px;
+    height: 50px;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 50px;
+  }
+
+  .otherBox {
+    width: 400px;
+    height: 74px;
+    margin: auto;
+  }
+  .otherBox ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .otherBox li {
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    line-height: 30px;
+    border: 2px solid #D9D9D9;
+  }
+  .otherBox li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (min-width: 1440px) {
+  #cartBox {
+    width: 1440px;
+    height: 1200px;
+    margin: 130px auto;
+    padding: 50px 80px;
+    border: 2px solid #F6F1EB;
+  }
+  h2 {
+    width: 1200px;
+    height: 48px;
+    margin: auto;
+    margin-bottom: 30px;
+    font-weight: normal;
+    font-size: 38px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .cart_area {
+    width: 1200px;
+    height: 1000px;
+    margin: auto;
+  }
+
+  .selectBox {
+    width: 1200px;
+    height: 46px;
+    border-top: 2px solid #D9D9D9;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .select_check_area {
+    width: 100%;
+    height: auto;
+    padding: 0 30px;
+  }
+  .select_check_area .select_check_inner01 {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .select_check_area .select_check_inner02 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    line-height: 40px;
+    font-size: 18px;
+  }
+  .select_check_area .select_check_inner02 li {
+    width: auto;
+    height: auto;
+  }
+  .select_check_area .select_check_inner02 input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+  }
+  .select_check_area .select_check_inner02 .check_part {
+    margin-left: -92px;
+  }
+  .select_check_area .select_check_inner02 .item_name_part {
+    margin-left: 100px;
+  }
+  .select_check_area .select_check_inner02 .item_num_part {
+    margin-left: 30px;
+  }
+  .select_check_area .select_check_inner02 .select_part {
+    margin-right: -20px;
+  }
+
+  .itemBox {
+    width: 100%;
+    height: 150px;
+    border-bottom: 2px solid #D9D9D9;
+  }
+
+  .item_area {
+    width: 100%;
+    height: auto;
+  }
+  .item_inner01 {
+    width: 100%;
+    height: 30px;
+    padding: 0 30px;
+  }
+  .item_inner01 input {
+    width: 20px;
+    height: 20px;
+    margin-top: 12px;
+  }
+  .item_inner01 .wish_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .item_inner01 .delete_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .item_area p {
+    width: 230px;
+    height: 50px;
+    margin: auto;
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 50px;
+  }
+
+  .otherBox {
+    width: 450px;
+    height: 74px;
+    margin: auto;
+  }
+  .otherBox ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+  }
+  .otherBox li {
+    width: 200px;
+    height: 60px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    border: 2px solid #D9D9D9;
+  }
+  .otherBox li button {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media all and (max-width: 767px) {
+  #footBox {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .fnb {
+    width: 100%;
+    height: auto;
+    background-color: #F6F1EB;
+  }
+  .fnb_box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .fnb_box div {
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+  .fnb_box div button {
+    width: 80px;
+    height: 100%;
+  }
+  .fnb_box div a {
+    display: block;
+  }
+  .fnb_box div ul {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+
+  .info_inner {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .info_inner h3 {
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    border-top: 2px solid #F6F1EB;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cs_box {
+    width: 0;
+    height: 0;
+  }
+  .cs_box a {
+    display: block;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .cs_box .cs_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .cs_box .store_search_part {
+    display: block;
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+    clip: rect(0, 0, 0, 0);
+    overflow: hidden;
+  }
+  .sns_part {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 134px;
+    height: 50px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .sns_part a {
+    display: block;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+  }
+  .sns_part .facebook_area {
+    background-image: url(../../../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .kakaotalk_area {
+    background-image: url(../../../img/kakaotalk.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .instagram_area {
+    background-image: url(../../../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .twitter_area {
+    background-image: url(../../../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  address {
+    position: relative;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+  }
+  address p {
+    font-size: 13px;
+  }
+  address a {
+    display: block;
+    text-decoration: underline;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 1279px) {
+  #footBox {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .fnb {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: #F6F1EB;
+    border-bottom: 1px solid #D9D9D9;
+  }
+  .fnb_box {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+  }
+  .fnb_box div {
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+  }
+  .fnb_box div button {
+    display: block;
+    width: 180px;
+    height: 100%;
+    margin: auto;
+  }
+  .fnb_box div a {
+    display: block;
+  }
+  .fnb_box div ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-size: 14px;
+    background-color: #F6F1EB;
+  }
+  .fnb_box div ul.on {
+    display: block;
+  }
+  .fnb_box div ul a {
+    display: block;
+  }
+
+  .info_inner {
+    position: relative;
+    margin: auto;
+    width: auto;
+    height: 600px;
+  }
+  .info_inner h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 767px;
+    height: 100px;
+    margin: auto;
+    border-top: 2px solid #F6F1EB;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cs_box {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 800px;
+    height: 250px;
+    margin: auto;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .cs_box a {
+    display: block;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .cs_part {
+    width: 350px;
+    height: 200px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 14px;
+  }
+  .cs_part button {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .store_search_part {
+    width: 320px;
+    height: 200px;
+  }
+  .store_search_part span {
+    display: block;
+    padding: 40px;
+    padding-bottom: 0;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .sns_part {
+    width: 70px;
+    height: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .sns_part a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+  }
+  .sns_part .facebook_area {
+    background-image: url(../../../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .kakaotalk_area {
+    background-image: url(../../../img/kakaotalk.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .instagram_area {
+    background-image: url(../../../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .twitter_area {
+    background-image: url(../../../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  address {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 60px 0;
+    border-top: 2px solid #F6F1EB;
+  }
+  address .mobile {
+    display: none;
+  }
+  address p {
+    display: block;
+    padding-left: 20px;
+  }
+  address a {
+    text-decoration: underline;
+  }
+}
+@media all and (min-width: 1280px) and (max-width: 1439px) {
+  #footBox {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  .fnb {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: #F6F1EB;
+    border-bottom: 1px solid #D9D9D9;
+  }
+  .fnb_box {
+    display: flex;
+    justify-content: space-around;
+    width: 1280px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+  }
+  .fnb_box div {
+    width: 100%;
+    height: 60px;
+    line-height: 58px;
+  }
+  .fnb_box div button {
+    display: block;
+    width: 200px;
+    height: 100%;
+    margin: auto;
+  }
+  .fnb_box div ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    background-color: #F6F1EB;
+  }
+  .fnb_box div ul.on {
+    display: block;
+  }
+  .fnb_box div ul a {
+    display: block;
+  }
+
+  .info_inner {
+    position: relative;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+  }
+  .info_inner h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1000px;
+    height: 100px;
+    margin: auto;
+    border-top: 2px solid #F6F1EB;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cs_box {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 1000px;
+    height: 300px;
+    margin: auto;
+    padding: 40px 0;
+    text-align: center;
+  }
+  .cs_box a {
+    display: block;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .cs_part {
+    width: 400px;
+    height: 250px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 15px;
+  }
+  .cs_part button {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+
+  .store_search_part {
+    width: 400px;
+    height: 250px;
+  }
+  .store_search_part span {
+    display: block;
+    padding: 40px;
+    padding-bottom: 0;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .sns_part {
+    width: 70px;
+    height: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .sns_part a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+  }
+  .sns_part .facebook_area {
+    background-image: url(../../../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .kakaotalk_area {
+    background-image: url(../../../img/kakaotalk.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .instagram_area {
+    background-image: url(../../../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .twitter_area {
+    background-image: url(../../../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  address {
+    width: 1000px;
+    height: 242px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    border-top: 2px solid #F6F1EB;
+  }
+  address .mobile {
+    display: none;
+  }
+  address p {
+    display: block;
+    padding-left: 20px;
+  }
+  address a {
+    text-decoration: underline;
+  }
+}
+@media all and (min-width: 1440px) {
+  #footBox {
+    width: 1440px;
+    height: auto;
+    margin: auto;
+  }
+  .fnb {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 60px;
+    background-color: #F6F1EB;
+    border-bottom: 1px solid #D9D9D9;
+  }
+  .fnb_box {
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 60px;
+    margin: auto;
+    text-align: center;
+  }
+  .fnb_box div {
+    width: 100%;
+    height: 60px;
+    line-height: 58px;
+    font-size: 18px;
+  }
+  .fnb_box div button {
+    display: block;
+    width: 200px;
+    height: 100%;
+    margin: auto;
+    text-align: center;
+    line-height: 60px;
+  }
+  .fnb_box div ul {
+    display: none;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    font-size: 16px;
+    background-color: #F6F1EB;
+  }
+  .fnb_box div ul.on {
+    display: block;
+  }
+  .fnb_box div ul a {
+    display: block;
+  }
+
+  .info_inner {
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    height: 690px;
+  }
+  .info_inner h3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1096px;
+    height: 100px;
+    margin: auto;
+    border-top: 2px solid #F6F1EB;
+    background-image: url(../../img/hermes_logo.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  .cs_box {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 1096px;
+    height: 320px;
+    margin: auto;
+    padding: 46px 0;
+    text-align: center;
+  }
+  .cs_box a {
+    display: block;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+  .cs_part {
+    width: 454px;
+    height: 230px;
+    padding: 20px;
+    text-align: justify;
+  }
+  .cs_part button {
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .cs_part button.on {
+    background-color: #ddd;
+  }
+
+  .store_search_part {
+    width: 454px;
+    height: 230px;
+  }
+  .store_search_part span {
+    display: block;
+    padding: 40px;
+    padding-bottom: 0;
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .sns_part {
+    width: 70px;
+    height: 200px;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .sns_part a {
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    margin-bottom: 8px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+  }
+  .sns_part .facebook_area {
+    background-image: url(../../../img/facebook.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .kakaotalk_area {
+    background-image: url(../../../img/kakaotalk.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .instagram_area {
+    background-image: url(../../../img/instagram.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+  .sns_part .twitter_area {
+    background-image: url(../../../img/twitter.png);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+
+  address {
+    width: 1096px;
+    height: 242px;
+    margin: auto;
+    margin-bottom: 15px;
+    padding-top: 60px;
+    border-top: 2px solid #F6F1EB;
+  }
+  address .mobile {
+    display: none;
+  }
+  address p {
+    display: block;
+    padding-left: 20px;
+  }
+  address a {
+    text-decoration: underline;
+  }
+}
+
+/*# sourceMappingURL=sub_cart.css.map */

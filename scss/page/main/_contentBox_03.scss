@@ -1,0 +1,339 @@
+// contentBox_03.scss
+
+
+// mobile =======================================
+@include mobile {
+  .contentBox_03 {
+    width: 100%; height: 500px;
+    margin-bottom: 200px; padding: 20px 10px;
+    text-transform: uppercase; text-align: center; line-height: 30px; 
+    border: $line1;
+
+    & h2 {
+      width: 200px; height: 30px;
+      margin: auto; margin-bottom: 20px;
+      }
+  
+  @at-root .content_area_03 {
+    width: 300px; height: auto;
+    margin: auto; 
+
+    @at-root .scarf_inner {
+      width: 270px; height: auto; 
+      margin: auto;
+
+      & li {
+        width: 270px; height: auto;
+        
+        @at-root .scarf_part_01 {
+          width: 270px; height: 300px; 
+          background-image: url(../../../img/hermes/scarf_02.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_01
+
+        & dl {
+            width: 200px; height: 100px;
+            padding-top: 20px; 
+            margin: auto; 
+            font-weight: bold; font-size: 14px;
+
+          & dt {
+            width: 180px; height: 30px;
+            margin: auto; 
+            }
+          & dd {
+            width: 140px; height: 30px; 
+            margin: auto; 
+            }
+          } // dl  
+        } // li
+      
+
+      & li:nth-of-type(2) {display: none;}
+      & li:nth-of-type(3) {display: none;} 
+      & li:nth-of-type(4) {display: none;}
+      & li:nth-of-type(5) {display: none;}
+      & li:nth-of-type(6) {display: none;} 
+      }
+    } // .content_area_03
+  } // .contentBox_03
+} // mobile 320
+
+
+
+
+
+
+
+
+
+// // tablet =======================================
+@include tablet {
+  .contentBox_03 {
+    width: 100%;  height: auto; 
+    margin: auto; margin-bottom: 200px; padding-top: 30px;
+    text-transform: uppercase; text-align: center; line-height: 50px;
+    border: $line1;
+
+    & h2 {
+      width: 300px; height: 50px;
+      margin: auto; margin-bottom: 20px;
+      font-size: 30px;
+      }
+  
+    @at-root .content_area_03 {
+      width: 100%; max-width: 768px; height: auto;
+      margin: auto; padding: 20px;
+
+
+    @at-root .scarf_inner {
+      display: flex; justify-content: space-around; flex-wrap: wrap;
+      width: 740px; height: 1000px; 
+      margin: auto;
+
+      & li {
+        width: 270px; height: auto;
+      
+      & div {
+        width: 270px; height: 300px; 
+        background-color: $color_light_gray_02;
+      } //div
+      @at-root .scarf_part_01 {
+        background-image: url(../../../img/hermes/scarf_02.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_01
+      @at-root .scarf_part_02 {
+        background-image: url(../../../img/hermes/scarf_01.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_02
+      @at-root .scarf_part_03 {
+        background-image: url(../../../img/hermes/scarf_03.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_03
+      @at-root .scarf_part_04 {
+        background-image: url(../../../img/hermes/scarf_04.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_04
+
+      & dl {
+        width: 270px; height: 150px;
+        padding: 20px;
+        font-weight: bold; font-size: 14px;
+
+        & dt {
+          width: 180px; height: 30px;
+          margin: auto; 
+          }
+        & dd {
+          width: 140px; height: 30px; 
+          margin: auto; 
+          }
+          } // dl
+        } // li 
+        & li:nth-of-type(5) {display: none;}
+        & li:nth-of-type(6) {display: none;} 
+      } // .scarf_inner
+    } // .content_area_03
+  } // .contentBox_03
+} // tablet 768  
+
+
+
+// laptop =======================================
+@include laptop {
+  .contentBox_03 {
+    width: 100%; height: auto;
+    margin: auto; margin-bottom: 200px; padding-top: 30px;
+    text-transform: uppercase; text-align: center; line-height: 50px;
+    border: $line1;
+
+    & h2 {
+      width: 300px; height: 50px;
+      margin: auto; margin-bottom: 20px;
+      font-size: 30px;
+      }
+  
+    @at-root .content_area_03 {
+    width: 100%; max-width: 1280px; height: 1200px;
+    margin: auto;
+
+
+    @at-root .scarf_inner {
+      display: flex; justify-content: space-around; flex-wrap: wrap;
+      width: 1200px; height: 1200px; 
+      margin: auto;
+      padding: 30px 50px;
+      & li {
+        width: 300px; height: auto;
+        margin-bottom: 50px;
+      
+        & div {
+          width: 300px; height: 370px; 
+          background-color: $color_light_gray_02;
+        } // div
+
+        @at-root .scarf_part_01 {
+          background-image: url(../../../img/hermes/scarf_02.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_01
+        @at-root .scarf_part_02 {
+          background-image: url(../../../img/hermes/scarf_01.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_02
+        @at-root .scarf_part_03 {
+          background-image: url(../../../img/hermes/scarf_03.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_03
+        @at-root .scarf_part_04 {
+          background-image: url(../../../img/hermes/scarf_04.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_04
+        @at-root .scarf_part_05 {
+          background-image: url(../../../img/hermes/scarf_06.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_05
+        @at-root .scarf_part_06 {
+          background-image: url(../../../img/hermes/scarf_05.jpg);
+          background-repeat: no-repeat;
+          background-position: 50% 50%; 
+          background-size: cover;
+        } //.scarf_part_06
+  
+  
+  
+        & dl {
+          width: 300px; height: 150px;
+          padding: 20px;
+          font-weight: bold; font-size: 16px;
+
+          & dt {
+            width: 200px; height: 40px;
+            margin: auto; 
+            }
+          & dd {
+            width: 150px; height: 40px; 
+            margin: auto; 
+            }
+          } // dl
+          } // li
+      } // .scarf_inner
+    } // .content_area_03
+  } // .contentBox_03
+} // laptop 1280
+
+
+
+
+
+
+
+
+// // pc =======================================
+@include pc {
+  .contentBox_03 {
+    width: 1440px; height: 1300px;
+    margin: auto; margin-bottom: 200px; padding-top: 30px;
+    text-transform: uppercase; text-align: center; line-height: 50px;
+    border: $line1;
+
+    & h2 {
+      width: 300px; height: 50px;
+      margin: auto; margin-bottom: 10px;
+      font-size: 30px;
+      }
+  
+    @at-root .content_area_03 {
+    width: 100%; height: 1500px;
+    margin: auto;
+
+    @at-root .scarf_inner {
+      display: flex; justify-content: space-around; flex-wrap: wrap;
+      width: 1200px; height: 1300px; 
+      margin: auto;
+      padding: 50px;
+    & li {
+      width: 300px; height: auto;
+    
+      & div {
+        width: 300px; height: 370px; 
+        background-color: $color_light_gray_02;
+      } // div
+
+      @at-root .scarf_part_01 {
+        background-image: url(../../../img/hermes/scarf_02.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_01
+      @at-root .scarf_part_02 {
+        background-image: url(../../../img/hermes/scarf_01.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_02
+      @at-root .scarf_part_03 {
+        background-image: url(../../../img/hermes/scarf_03.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_03
+      @at-root .scarf_part_04 {
+        background-image: url(../../../img/hermes/scarf_04.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_04
+      @at-root .scarf_part_05 {
+        background-image: url(../../../img/hermes/scarf_06.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_05
+      @at-root .scarf_part_06 {
+        background-image: url(../../../img/hermes/scarf_05.jpg);
+        background-repeat: no-repeat;
+        background-position: 50% 50%; 
+        background-size: cover;
+      } //.scarf_part_06
+
+      &  dl {
+        width: 300px; height: 150px;
+        padding: 20px; 
+        font-weight: bold; font-size: 16px;
+
+        &  dt {
+          width: 200px; height: 40px;
+          margin: auto; 
+          }
+        &  dd {
+          width: 150px; height: 40px; 
+          margin: auto;
+          }
+        } // dl
+        } // li
+      } // .scarf_inner  
+    } // .content_area_03
+  } // .contentBox_03
+} // pc 1440
+
+

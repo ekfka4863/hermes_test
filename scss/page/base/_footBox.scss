@@ -1,0 +1,520 @@
+// footBox.scss
+
+@import "../../common/mixin";
+@import "../../common/variable";
+
+$imgPath:'../../img/';
+$logoWhite: #{$imgPath}+'hermes_logo.svg';
+
+// mobile ==========================================
+
+@include mobile {
+  #footBox {
+      width: 100%; height: auto;
+      margin:auto;
+    
+    @at-root .fnb {
+      width: 100%; height: auto;
+      background-color: $color_beige_01;
+      
+      @at-root .fnb_box {
+          display: flex; justify-content: space-around; 
+          width: 100%; height: 40px;
+          margin: auto; margin-bottom: 20px;
+
+          @at-root & div { 
+            width:80px; height: 40px; 
+            // padding:0.2rem;
+            font-size: 12px; text-align: center; 
+            font-weight: bold; 
+            & button { width: 80px; height: 100%;}            
+            & a {display: block;}
+            & ul {@include blind;}
+          }
+        } //.fnb_box
+      }// .fnb
+    
+      @at-root .info_inner {
+        position: relative; 
+        width: 100%; height: auto;
+        margin: auto;
+    
+        & h3 {
+          position: absolute; bottom: -100px; left: 0;
+          width: 100%; height: 80px;
+          margin: auto;
+          border-top: $line1;
+          background-image: url($logoWhite);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          }
+      
+        @at-root .cs_box {
+          width: 0; height: 0;
+        
+          & a {display:block; font-weight: $font_weight_bold; text-decoration: underline}
+        
+          .cs_part {@include blind}
+    
+          .store_search_part {@include blind}
+          
+          @at-root .sns_part { 
+            position: absolute; bottom: -20px; right: 0;
+            display: flex; justify-content: space-between;
+            width: 134px; height: 50px;
+            padding: 8px; 
+            box-sizing: border-box;
+            
+            &  a {
+              display:block; 
+              width: 28px; height: 28px;
+              border-radius: 100%;
+              background-color: $color_light_gray_02;
+            }
+            & .facebook_area {
+              background-image: url(../../../img/facebook.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              background-size: cover;
+            }
+            & .kakaotalk_area {
+              background-image: url(../../../img/kakaotalk.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              background-size: cover;
+            }
+            & .instagram_area {
+              background-image: url(../../../img/instagram.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              background-size: cover;
+            }
+            & .twitter_area {
+              background-image: url(../../../img/twitter.png);
+              background-repeat: no-repeat;
+              background-position: 50% 50%;
+              background-size: cover;
+            }
+          } // .sns_part
+        } // .cs_box
+    
+        @at-root address {
+          position: relative;
+          width: auto; height: auto;
+          margin: auto; padding: 10px;
+          & p { font-size: 13px;}
+          & a {display: block; text-decoration: underline;}
+      } //address
+    }// .info_inner
+  }// #footBox
+} // 320px mobile
+
+
+
+// tablet ==========================================
+
+@include tablet {
+  #footBox {
+    width: 100%; height: auto;
+    margin:auto; 
+  
+    @at-root .fnb {
+      position: relative; z-index: 100;
+      width: 100%; height: 60px;
+      background-color: $color_beige_01;
+      border-bottom: $line3;
+    
+    @at-root .fnb_box {
+        display: flex; justify-content: space-around;
+        width: 100%; height: 60px;
+        margin: auto; 
+        text-align: center; 
+
+        &  div { 
+          width: 100%; height: 60px;
+          line-height: 50px; 
+          & button {display: block; width: 180px; height: 100%; margin: auto;} 
+          & a {display: block;}
+          & ul {
+            display:none;
+            width: 100%; height: auto; 
+            margin: auto;
+            font-size: 14px; 
+            background-color: $color_beige_01; 
+            
+          &.on{display:block;}
+          & a {display: block;}
+          }
+        }
+      } //.fnb_box
+    }// .fnb
+  
+    @at-root .info_inner {
+      position: relative; margin: auto;
+      width: auto; height: 600px;
+  
+      & h3 { 
+        position: absolute; bottom: 0; left: 0; right: 0;
+        width: 767px; height: 100px;
+        margin: auto; 
+        border-top: $line1;
+        background-image: url($logoWhite);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        }
+    
+        @at-root .cs_box {
+        display: flex; justify-content: space-between;
+        width: auto; max-width: 800px; height: 250px;
+        margin: auto; padding: 20px 0;
+        text-align: center; 
+      
+        & a {display:block; font-weight: $font_weight_bold; text-decoration: underline}
+      
+        @at-root .cs_part {
+          width: 350px; height: 200px; 
+          padding: 20px;
+          text-align: justify;
+          font-size: 14px;
+
+          & button { text-decoration: underline; font-weight: $font_weight_bold;}
+        }
+  
+        @at-root .store_search_part {
+          width: 320px; height: 200px; 
+
+          & span {
+            display:block; 
+            padding: 40px; padding-bottom: 0;
+            font-size: 22px;  font-weight: $font_weight_bold;}
+        }
+        
+        @at-root .sns_part { 
+          width: 70px; height: 200px;
+          padding: 8px; 
+          box-sizing: border-box;
+
+          &  a {
+            display:block; 
+            width: 40px; height: 40px;
+            margin:auto; margin-bottom: 8px;
+            border-radius: 100%;
+            background-color: $color_light_gray_02;
+          }
+          & .facebook_area {
+            background-image: url(../../../img/facebook.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+          & .kakaotalk_area {
+            background-image: url(../../../img/kakaotalk.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+          & .instagram_area {
+            background-image: url(../../../img/instagram.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+          & .twitter_area {
+            background-image: url(../../../img/twitter.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+        } // .sns_part
+      } // .cs_box
+  
+      @at-root address {
+        width: 100%; height: auto;
+        margin: auto;  padding: 60px 0;
+        border-top: $line1;
+        & .mobile {display: none;}
+        & p {display: block; padding-left: 20px;}
+        & a {text-decoration: underline;}
+      } //address
+    }// .info_inner
+  }// #footBox
+} // 768px tablet
+
+
+
+
+
+
+// laptop ==========================================
+
+@include laptop {
+  #footBox {
+    width: 100%; height: auto;
+    margin:auto; 
+  
+    @at-root .fnb {
+      position: relative; z-index: 100;
+      width: 100%; height: 60px;
+      background-color: $color_beige_01;
+      border-bottom: $line3;
+    
+    @at-root .fnb_box {
+        display: flex; justify-content: space-around;
+        width: 1280px; height: 60px;
+        margin: auto; 
+        text-align: center; 
+      
+        &  div { 
+          width: 100%; height: 60px;
+          line-height: 58px;
+          & button {display: block; width: 200px; height: 100%; margin: auto;}
+          & ul {
+            display: none;
+            width: 100%; height: auto; 
+            margin: auto;
+            font-size: 15px;
+            background-color: $color_beige_01;
+
+            &.on{display:block;}
+            & a {display: block;}
+          }
+        }
+      } //.fnb_box
+    }// .fnb
+  
+    @at-root .info_inner {
+      position: relative; margin: auto;
+      width: 100%; height: 600px;
+  
+      & h3 {
+        position: absolute; bottom: 0; left: 0; right: 0;
+        width: 1000px; height: 100px;
+        margin: auto; 
+        border-top: $line1;
+        background-image: url($logoWhite);
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        }
+    
+        @at-root .cs_box {
+        display: flex; justify-content: space-between;
+        width: auto; max-width: 1000px; height: 300px;
+        margin: auto; padding: 40px 0;
+        text-align: center; 
+      
+        & a {display:block; font-weight: $font_weight_bold; text-decoration: underline}
+      
+        @at-root .cs_part {
+          width: 400px; height: 250px; 
+          padding: 20px;
+          text-align: justify; 
+          font-size: 15px;
+
+          & button { text-decoration: underline; font-weight: $font_weight_bold;}
+        }
+  
+        @at-root .store_search_part {
+          width: 400px; height: 250px; 
+
+          & span {
+            display:block; 
+            padding: 40px; padding-bottom: 0;
+            font-size: 22px;  font-weight: $font_weight_bold;}
+        }
+        
+        @at-root .sns_part { 
+          width: 70px; height: 200px;
+          padding: 8px; 
+          box-sizing: border-box;
+
+          &  a {
+            display:block; 
+            width: 40px; height: 40px;
+            margin:auto; margin-bottom: 8px;
+            border-radius: 100%;
+            background-color: $color_light_gray_02;
+          }
+          & .facebook_area {
+            background-image: url(../../../img/facebook.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+          & .kakaotalk_area {
+            background-image: url(../../../img/kakaotalk.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+          & .instagram_area {
+            background-image: url(../../../img/instagram.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+          & .twitter_area {
+            background-image: url(../../../img/twitter.png);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+          }
+        } // .sns_part
+      } // .cs_box
+  
+      @at-root address {
+        width: 1000px; height: 242px;
+        margin: auto; margin-bottom: 20px; padding-top: 30px;
+        border-top: $line1;
+        & .mobile {display: none;}
+        & p {display: block; padding-left: 20px;}
+        & a {text-decoration: underline;}
+      } //address
+    }// .info_inner
+  }// #footBox
+} // 1280px laptop
+
+
+
+
+
+
+
+//  pc =============================================
+
+@include pc {
+
+#footBox {
+  width: 1440px; height: auto;
+  margin:auto; 
+
+  @at-root .fnb {
+    position: relative; z-index: 100;
+    width: 100%; height: 60px;
+    background-color: $color_beige_01;
+    border-bottom: $line3;
+  
+  @at-root .fnb_box {
+      display: flex; justify-content: space-between;
+      width: 1200px; height: 60px;
+      margin: auto; 
+      text-align: center; 
+
+      &  div { 
+        width: 100%; height: 60px;
+        line-height: 58px; font-size: 18px;
+          & button {
+            display: block; 
+            width: 200px; height: 100%;
+            margin: auto;
+            text-align: center;  line-height: 60px;}
+        
+        & ul {
+          display:none;
+          width: 100%; height: auto; 
+          margin: auto;
+          font-size: 16px;
+          background-color: $color_beige_01; 
+          
+          &.on{display:block;}
+          & a {display: block;}
+          }
+      
+
+    }
+
+    } //.fnb_box
+  }// .fnb
+
+  @at-root .info_inner {
+    position: relative; margin: auto;
+    width: 1440px; height: 690px;
+
+    & h3 {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      width: 1096px; height: 100px;
+      margin: auto; 
+      border-top: $line1;
+      background-image: url($logoWhite);
+      background-repeat: no-repeat;
+      background-position: 50% 50%;
+      }
+  
+      @at-root .cs_box {
+      display: flex; justify-content: space-between;
+      width: auto; max-width: 1096px; height: 320px;
+      margin: auto; padding: 46px 0;
+      text-align: center; 
+    
+      & a {display:block; font-weight: $font_weight_bold; text-decoration: underline}
+    
+      @at-root .cs_part {
+        width: 454px; height: 230px; 
+        padding: 20px;
+        text-align: justify;
+
+        & button { text-decoration: underline; font-weight: $font_weight_bold;}
+        & button.on { background-color: #ddd;}
+      }
+
+      @at-root .store_search_part {
+        width: 454px; height: 230px; 
+
+        & span {
+          display:block; 
+          padding: 40px; padding-bottom: 0;
+          font-size: 22px; font-weight: $font_weight_bold;}
+      }
+      
+      @at-root .sns_part { 
+        width: 70px; height: 200px;
+        padding: 8px; 
+        box-sizing: border-box;
+
+        &  a {
+          display:block; 
+          width: 40px; height: 40px;
+          margin:auto; margin-bottom: 8px;
+          border-radius: 100%;
+          background-color: $color_light_gray_02;
+        }
+        & .facebook_area {
+          background-image: url(../../../img/facebook.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: cover;
+        }
+        & .kakaotalk_area {
+          background-image: url(../../../img/kakaotalk.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: cover;
+        }
+        & .instagram_area {
+          background-image: url(../../../img/instagram.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: cover;
+        }
+        & .twitter_area {
+          background-image: url(../../../img/twitter.png);
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+          background-size: cover;
+        }
+      } // .sns_part
+    } // .cs_box
+
+    @at-root address {
+      width: 1096px; height: 242px;
+      margin: auto; margin-bottom: 15px; padding-top: 60px;
+      border-top: $line1;
+
+      & .mobile {display: none;}
+      & p {display: block; padding-left: 20px;}
+      & a {text-decoration: underline;}
+      } //address
+
+    
+    }// .info_inner
+  }// #footBox
+} // pc

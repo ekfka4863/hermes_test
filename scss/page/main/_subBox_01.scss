@@ -1,0 +1,66 @@
+// subBox_01.scss
+
+
+
+// mobile =======================================
+@include mobile {
+  .subBox_01 {
+    width: 100%; height: 150px;
+    margin-bottom: 200px;
+
+    background-image: url(../../../img/hermes/sub_01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: cover;
+  } // .subBox_01
+} // mobile 320
+
+
+
+
+// tablet =======================================
+@include tablet {
+  .subBox_01 {
+    width: 100%; height: 300px;
+    margin-bottom: 280px;
+
+    background-image: url(../../../img/hermes/sub_01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: cover;
+  } // .subBox_01
+} // tablet 768
+
+
+
+
+// laptop =======================================
+@include laptop {
+  .subBox_01 {
+    width: 100%; height: 300px;
+    margin-bottom: 280px;
+
+    background-image: url(../../../img/hermes/sub_01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: cover;
+  } // .subBox_01
+} // laptop 1280
+
+
+
+
+
+// pc =======================================
+@include pc {
+  .subBox_01 {
+    width: 1440px; height: 400px;
+    margin: auto; margin-bottom: 280px;
+
+    background-image: url(../../../img/hermes/sub_01.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%; 
+    background-size: cover;
+  } // .subBox_01
+} // pc 1440
+

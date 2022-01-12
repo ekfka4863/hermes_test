@@ -1,0 +1,72 @@
+// viewBox.scss
+
+@import "../../common/mixin";
+@import "../../common/variable";
+
+
+
+
+// mobile 320 ========================================
+@include mobile {
+  .viewBox {
+    width: 100%; height: 350px;
+    margin: auto; margin-bottom: 110px; 
+
+    background-image: url(../../../img/hermes/view_m.jpg);
+    background-repeat: no-repeat;
+    background-position: 70% 50%; 
+    background-size: cover;    
+  }
+} // mobile 320
+
+
+
+
+// tablet 768 =========================================
+@include tablet {
+  .viewBox {
+    width: 100%; height: 500px;
+    margin: auto; margin-bottom: 230px; 
+
+    background-image: url(../../../img/hermes/view.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+} // tablet 768
+
+
+
+
+
+// laptop 1280 ========================================
+@include laptop {
+  .viewBox {
+    width: 100%; height: 700px;
+    margin: auto; margin-bottom: 210px; 
+
+    background-image: url(../../../img/hermes/view.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+  }
+} // laptop 1280
+
+
+
+
+
+// pc 1440 =============================================
+@include pc {
+  .viewBox {
+    width: 1440px; height: 750px;
+    margin: auto; margin-bottom: 210px; 
+
+    background-image: url(../../../img/hermes/view.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size:cover;
+  }
+} // pc 1440
+
+
