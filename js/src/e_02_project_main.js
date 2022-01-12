@@ -20,7 +20,7 @@ fetch(headerData)
   elBody.append(elScript);
 })
 
-// contentBox_02 슬라이드 - mobile, tablet
+// contentBox_02 슬라이드 
 
 const setDevice = [
   {type:'mobile', size:'1279', script:'../js/temp/e_project_contentBox_02_mt_slide.js'}, // tablet과 mobile의 JS가 같아서 통합
@@ -64,26 +64,6 @@ MbCk();
 mediaMatches.addEventListener('change',(e)=>{ // 변화감지 이벤트 
   MbCk(e.matches);
 })
-
-
-
-
-
-// .then(() => {
-//   let elScript = document.createElement('script');
-//   elScript.setAttribute('src', '../js/temp/e_project_contentBox_02_mt_slide.js');
-//   elBody.append(elScript);
-// })
-// // contentBox_02 슬라이드 - laptop, pc
-// .then(() => {
-//   let elScript = document.createElement('script');
-//   elScript.setAttribute('src', '../js/temp/e_project_contentBox_02_lp_slide.js');
-//   elBody.append(elScript);
-// })
-
-// ------------------------------------------------------------------
-
-
 
 
 
