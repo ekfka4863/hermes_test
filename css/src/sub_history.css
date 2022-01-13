@@ -983,7 +983,7 @@
 @media all and (max-width: 767px) {
   #historyBox {
     width: 100%;
-    height: 1000px;
+    height: 800px;
     padding-top: 100px;
   }
   #historyBox h2 {
@@ -1009,7 +1009,6 @@
     flex-wrap: nowrap;
     width: 1500px;
     height: 300px;
-    margin-top: 30px;
   }
   li {
     width: 100%;
@@ -1085,7 +1084,7 @@
 @media all and (min-width: 768px) and (max-width: 1279px) {
   #historyBox {
     width: 100%;
-    height: 1500px;
+    height: 1300px;
     padding-top: 150px;
     background-color: #fff;
   }
@@ -1101,7 +1100,7 @@
   }
   .history_part {
     width: 700px;
-    height: 650px;
+    height: 600px;
     margin: auto;
     overflow: hidden;
   }
@@ -1113,7 +1112,6 @@
     width: 3500px;
     height: 600px;
     margin: auto;
-    margin-top: 80px;
   }
   li {
     width: 100%;
@@ -1187,7 +1185,7 @@
 @media all and (min-width: 1280px) and (max-width: 1439px) {
   #historyBox {
     width: 100%;
-    height: 2000px;
+    height: 1600px;
     padding-top: 170px;
   }
   #historyBox h2 {
@@ -1287,7 +1285,7 @@
 @media all and (min-width: 1440px) {
   #historyBox {
     width: 100%;
-    height: 2000px;
+    height: 1700px;
     padding-top: 150px;
   }
   #historyBox h2 {
