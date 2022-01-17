@@ -1,4 +1,4 @@
-// e_project_historyBox_lp_slide.js
+// e_project_historyBox_t_slide.js
 
 {
   const historyPart = document.querySelector('.history_part');

@@ -23,8 +23,8 @@ fetch(headerData)
 // contentBox_02 슬라이드 
 
 const setDevice = [
-  {type:'mobile', size:'1279', script:'../js/temp/e_project_contentBox_02_mt_slide.js'}, // tablet과 mobile의 JS가 같아서 통합
-  {type:'pc', script:'../js/temp/e_project_contentBox_02_lp_slide.js'}
+  {type:'mobile', size:'767', script:'../js/temp/e_project_contentBox_02_m_slide.js'}, // tablet과 mobile의 JS가 같아서 통합
+  {type:'pc', script:'../js/temp/e_project_contentBox_02_tlp_slide.js'}
 ]
 const mediaSize = `screen and (max-width:${setDevice[0].size}px)`
 const mediaMatches = window.matchMedia(mediaSize);
