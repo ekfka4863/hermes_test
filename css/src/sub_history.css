@@ -998,8 +998,8 @@
   }
   .history_part {
     width: 300px;
-    height: 600px;
-    margin: auto;
+    height: 400px;
+    margin: 20px auto;
     overflow: hidden;
   }
 
@@ -1008,7 +1008,7 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     width: 1500px;
-    height: 500px;
+    height: 400px;
   }
   li {
     width: 100%;
@@ -1018,6 +1018,7 @@
   li dl {
     width: 300px;
     height: auto;
+    margin-top: 20px;
   }
   li dl dt {
     width: 200px;
@@ -1025,14 +1026,14 @@
     margin: auto;
     line-height: 40px;
     font-size: 12px;
-    background-color: #dfa;
   }
   li dl dd {
     width: 300px;
-    height: 200px;
+    height: 100px;
     margin: auto;
+    padding: 15px;
     font-size: 6px;
-    background-color: #cdc;
+    line-height: 20px;
   }
   .history_inner_01 {
     background-image: url(../../../img/hermes/history_01.jpg);
@@ -1117,7 +1118,7 @@
   }
   .history_part {
     width: 700px;
-    height: 600px;
+    height: 800px;
     margin: auto;
     overflow: hidden;
   }
@@ -1127,7 +1128,7 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     width: 3500px;
-    height: 600px;
+    height: 700px;
     margin: auto;
   }
   li {
@@ -1135,6 +1136,28 @@
     height: 400px;
     margin: auto;
     text-align: center;
+  }
+  li dl {
+    width: 650px;
+    height: auto;
+    margin: auto;
+    margin-top: 450px;
+  }
+  li dl dt {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    line-height: 40px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  li dl dd {
+    width: 600px;
+    height: 100px;
+    margin: auto;
+    padding: 15px;
+    font-size: 14px;
+    line-height: 20px;
   }
   .history_inner_01 {
     background-image: url(../../../img/hermes/history_01.jpg);
@@ -1217,7 +1240,7 @@
   }
   .history_part {
     width: 1200px;
-    height: 700px;
+    height: 900px;
     margin: auto;
     overflow: hidden;
   }
@@ -1235,6 +1258,28 @@
     height: 600px;
     margin: auto;
     text-align: center;
+  }
+  li dl {
+    width: 750px;
+    height: auto;
+    margin: auto;
+    margin-top: 650px;
+  }
+  li dl dt {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  li dl dd {
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .history_inner_01 {
     background-image: url(../../../img/hermes/history_01.jpg);
@@ -1317,7 +1362,7 @@
   }
   .history_part {
     width: 1200px;
-    height: 800px;
+    height: 1000px;
     margin: auto;
     overflow: hidden;
   }
@@ -1327,7 +1372,7 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     width: 6000px;
-    height: 700px;
+    height: 800px;
     margin: auto;
     margin-top: 80px;
   }
@@ -1336,6 +1381,28 @@
     height: 600px;
     margin: auto;
     text-align: center;
+  }
+  li dl {
+    width: 750px;
+    height: auto;
+    margin: auto;
+    margin-top: 650px;
+  }
+  li dl dt {
+    width: 300px;
+    height: 50px;
+    margin: auto;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  li dl dd {
+    width: 700px;
+    height: 100px;
+    margin: auto;
+    padding: 15px;
+    font-size: 16px;
+    line-height: 26px;
   }
   .history_inner_01 {
     background-image: url(../../../img/hermes/history_01.jpg);
