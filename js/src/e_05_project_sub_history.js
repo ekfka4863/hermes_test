@@ -63,7 +63,7 @@ const MbCk = (type=mediaMatches.matches) =>{
     .then(delScript()) //이전 JS삭제
   }else{
     fetch(setDevice[2].script)  
-    .then(() => {elScript(setDevice[2].script)})  
+    .then(() => {elScript(setDevice[2].script)})   
     .then(delScript()) //이전 JS삭제 
   }
 
