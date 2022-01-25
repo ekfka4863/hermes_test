@@ -19,7 +19,7 @@
 
 // li값 파악
   // const elLiMargin = parseInt(window.getComputedStyle(historyLiList[1]).marginLeft);
-  const elLiWidth = historyLiList[1].clientWidth;
+  // const elLiWidth = historyLiList[1].clientWidth;
   const elMoveWidth = 100;
 
 // 다음 버튼 클릭시 li 크기만큼 왼쪽으로 이동

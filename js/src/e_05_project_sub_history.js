@@ -67,7 +67,6 @@ const MbCk = (type=mediaMatches.matches) =>{
     .then(delScript()) //이전 JS삭제 
   }
 
-  // switch 문으로 변환
   
 };  
 
