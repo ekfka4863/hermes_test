@@ -1134,7 +1134,7 @@
   li {
     width: 100%;
     height: 400px;
-    margin: auto;
+    margin-right: auto;
     text-align: center;
   }
   li dl {

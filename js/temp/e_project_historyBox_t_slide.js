@@ -66,3 +66,12 @@
 
 
 }
+
+// {
+//   let historyArea = document.querySelector('.history_area');
+//   let elLi = historyArea.querySelectorAll('li');
+//   currentIdx = 0;
+//   slideCount = slideImg.length;
+//   const indicators = document.querySelector('.indicatorBox'); 
+//   slideWidth = 
+// }
