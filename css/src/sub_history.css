@@ -970,7 +970,6 @@
   .cart_btn {
     width: 50px;
     height: 60px;
-    background-image: url(../../.././img/bag.png);
     background-repeat: no-repeat;
     background-position: 50% 50%;
   }
